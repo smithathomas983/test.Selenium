@@ -40,7 +40,7 @@ public class BasePage {
 		prop = new Properties();
 		try {
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\test\\Selenium\\Config\\config.properties");
-				//"C:\\Users\\Balu\\Desktop\\QA\\Eclipse\\Smitha\\test.Selenium	"C:\\Users\\Balu\\Desktop\\QA\\Eclipse\\Smitha\\test.Selenium\\src\\main\\java\\com\\qa\\hubspot\\Config\\config.properties");
+				
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
